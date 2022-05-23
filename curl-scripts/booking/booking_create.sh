@@ -2,11 +2,10 @@
 
 # sh curl-scripts/booking/booking_create.sh  
 
-NAME="Gatchpoor"
-TITLE="Sunday"
+NAME="Dass"
 DATE="2022-05-22"
-DESCRIPTION="service"
-TOKEN="7abb72ec1c708a85710faebeed06a5d3"
+PLEDGE="service"
+TOKEN="d6613496e620d827c8b8096c3956bb2a"
 API="http://localhost:4741"
 URL_PATH="/booking"
 
@@ -18,9 +17,9 @@ curl "${API}${URL_PATH}" \
   --data '{
     "booking": {
       "name": "'"${NAME}"'",
-      "title": "'"${TITLE}"'",
-      "description": "'"${DESCRIPTION}"'",
-      "date": "'"${DATE}"'"
+      "date": "'"${DATE}"'",
+      "pledge": "'"${PLEDGE}"'"
+     
     }
   }'
 

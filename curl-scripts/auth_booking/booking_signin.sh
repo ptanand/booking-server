@@ -2,7 +2,7 @@
 
 #  sh curl-scripts/auth_booking/booking_signin.sh 
 
-EMAIL="a@a.com"
+EMAIL="a@a1.com"
 PASSWORD="12"
 API="http://localhost:4741"
 URL_PATH="/sign-in"

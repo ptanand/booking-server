@@ -6,12 +6,12 @@ const bookingSchema = new mongoose.Schema(
       type: String,
       required: true
     },
-
-    title: {
+    date: {
       type: String,
       required: true
     },
-    description: {
+
+    pledge: {
       type: String,
       required: true
     },
@@ -19,11 +19,8 @@ const bookingSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: 'User',
       required: true
-    },
-    date: {
-      type: String,
-      required: true
     }
+
   },
   {
     timestamps: true

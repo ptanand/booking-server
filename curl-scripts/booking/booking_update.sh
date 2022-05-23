@@ -3,12 +3,11 @@
 # sh curl-scripts/booking/booking_update.sh  
 
 
-ID="628ab72c33f0f923525e83ef"
-NAME="Gatchpoor"
-TITLE="Monday"
-DESCRIPTION="service"
+ID="628ba81a956a630b0785d59e"
+NAME="Dass"
 DATE="2022-06-03"
-TOKEN="7abb72ec1c708a85710faebeed06a5d3"
+PLEDGE="Allo"
+TOKEN="d6613496e620d827c8b8096c3956bb2a"
 API="http://localhost:4741"
 URL_PATH="/booking"
 
@@ -20,9 +19,9 @@ curl "${API}${URL_PATH}/${ID}" \
 --data '{
       "booking": {
       "name": "'"${NAME}"'",
-      "title": "'"${TITLE}"'",
-      "description": "'"${DESCRIPTION}"'",
-      "date": "'"${DATE}"'"
+      "date": "'"${DATE}"'",
+      "pledge": "'"${PLEDGE}"'"
+      
     }
   }'
 
