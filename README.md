@@ -183,7 +183,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://www.youtube.com/watch?v=PYFltdGJ-Rc&list=WL&index=2&t=65s
 
 ## ERD:
-![Erd](https://i.imgur.com/9LBEY43.jpg)
+![Erd](https://i.imgur.com/1IiP7RK.jpg)
 
 ## Stretch Goals:
 
